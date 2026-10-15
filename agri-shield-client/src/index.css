@@ -1,0 +1,72 @@
+@import 'tailwindcss';
+
+@plugin "daisyui";
+
+@theme {
+  --color-primary: #077d8a;
+  --color-primary-light: #bddbde;
+  --color-secondary: #21b6c7;
+  --color-background: #f4f7f8;
+  --color-foreground: #1e293b;
+  --color-card: #ffffff;
+  --color-border: #e2e8f0;
+  --color-danger: #dc2626;
+}
+
+/* 
+
+*/
+
+@plugin "daisyui/theme" {
+  name: 'ocean';
+  default: true;
+  prefersdark: true;
+  color-scheme: light;
+
+  /* Primary — #077d8a */
+  --color-primary: #077d8a;
+  --color-primary-content: #ffffff;
+
+  /* Secondary — #21b6c7 */
+  --color-secondary: #21b6c7;
+  --color-secondary-content: #102f33;
+
+  /* Accent — #bddbde */
+  --color-accent: #bddbde;
+  --color-accent-content: #1e293b;
+
+  /* Neutral */
+  --color-neutral: #1e293b;
+  --color-neutral-content: #f4f7f8;
+
+  /* Background and surfaces */
+  --color-base-100: #ffffff;
+  --color-base-200: #f4f7f8;
+  --color-base-300: #e2e8f0;
+  --color-base-content: #1e293b;
+
+  /* Status colors */
+  --color-info: #0284c7;
+  --color-info-content: #ffffff;
+
+  --color-success: #16a34a;
+  --color-success-content: #ffffff;
+
+  --color-warning: #f59e0b;
+  --color-warning-content: #1e293b;
+
+  --color-error: #dc2626;
+  --color-error-content: #ffffff;
+
+  /* Component shapes */
+  --radius-selector: 0.5rem;
+  --radius-field: 0.5rem;
+  --radius-box: 0.75rem;
+
+  /* Component sizing and effects */
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 1;
+  --noise: 0;
+}
