@@ -3,14 +3,15 @@
 @plugin "daisyui";
 
 @theme {
-  --color-primary: #077d8a;
-  --color-primary-light: #bddbde;
+  --color-primary: #25d162;
+  --color-primary-dark: #1a561d;
   --color-secondary: #21b6c7;
-  --color-background: #f4f7f8;
+  --color-background: #f9f9f9;
   --color-foreground: #1e293b;
   --color-card: #ffffff;
   --color-border: #e2e8f0;
-  --color-danger: #dc2626;
+  --color-danger: #ff653f;
+  --color-warning: #f9a825;
 }
 
 /* 
@@ -24,7 +25,7 @@
   color-scheme: light;
 
   /* Primary — #077d8a */
-  --color-primary: #077d8a;
+  --color-primary: #25d162;
   --color-primary-content: #ffffff;
 
   /* Secondary — #21b6c7 */
